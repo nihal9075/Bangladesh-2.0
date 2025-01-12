@@ -92,6 +92,12 @@
     margin: 0px 0px 0px 0px;
 }
 
+.Pillars h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
 .section02-pillars {
     text-align: center;
     margin-bottom: 30px;
@@ -100,7 +106,7 @@
 .Pillae-container {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .Pillars-cards {
@@ -122,4 +128,97 @@
 
 .Pillars-cards h4 {
     font-size: 20px;
+}
+
+/* style The Vision of Future */
+
+.vision {
+    padding: 100px;
+    margin: 0px 0px 0px 0px;
+}
+
+.vision h2 {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.vision-contaner {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.Vision-cards {
+    
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    border: solid #ddd;
+    border-radius: 16px;
+    width: 412px;
+
+    height: 327px;
+
+}
+.vision-contaner h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0f0f0fd8;
+}
+.vision-contaner p {
+    font-size: 16px;
+    color: #0f0f0faf;
+}
+
+.Vision-cards img {
+    padding: 25px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.Vision-cards-01 {
+    padding: 25px;
+    background-color: #548ff53f;
+}
+
+#lbtn-01 {
+    background-color: #5490F5;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+}
+
+.Vision-cards-02 {
+    padding: 25px;
+    background-color: #09a15d39;
+}
+
+#lbtn-02 {
+    background-color: #09A15C;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.Vision-cards-03 {
+    padding: 25px;
+    background-color: #ffc4393d;
+}
+
+#lbtn-03 {
+    background-color: #FFC239;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+
 }
