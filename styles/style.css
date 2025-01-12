@@ -10,7 +10,7 @@
 * {
     padding: 0 px;
     margin: 0px;
-    background-color: #f5f5f5;
+    
 }
 
 /* nav styles    */
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: #f5f5f5;
     padding: 10px 20px;
 
 }
@@ -28,7 +28,7 @@
     font-size: 32px;
     font-weight: bold;
     text-decoration: none;
-    background-color: rgb(255, 255, 255);
+    background-color: #f5f5f5;
 }
 
 .signin-button {
@@ -48,3 +48,34 @@
     background-color: #006a50;
     color: white;
 }
+/*style in hero content */
+.hero{
+    margin:0px 80px 0px 100px;
+    padding: 80px;
+    display: flex;
+    background-color:#C6E4D6;
+    align-items: center;
+    border-radius: 24px;
+    justify-content: space-between;
+  }
+  #hero-font{
+    font-size: 56px;
+    font-weight: bold;
+  }
+  .medium-font{
+    font-weight: 500;
+    color: rgb(14, 14, 14,50%);
+  }
+  .hbtn{
+    background-color:rgb(0,106,80) ;
+    color :rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight:bold;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+  }
+  .hbtn:hover{
+    background-color:rgb(0,106,80,0.8) ;
+    color :rgb(255, 255, 255);
+  }
