@@ -10,7 +10,7 @@
 * {
     padding: 0 px;
     margin: 0px;
-    
+
 }
 
 /* nav styles    */
@@ -19,7 +19,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #f5f5f5;
-    padding: 10px 20px;
+    padding: 10px 100px;
 
 }
 
@@ -33,7 +33,7 @@
 
 .signin-button {
     text-decoration: none;
-    
+
 }
 
 .btn {
@@ -44,38 +44,82 @@
     padding: 15px 30px;
     border-radius: 8px;
 }
+
 .signin-button:hover {
     background-color: #006a50;
     color: white;
 }
+
 /*style in hero content */
-.hero{
-    margin:0px 80px 0px 100px;
-    padding: 80px;
+.hero {
+    margin: 0px 100px 0px 100px;
+    padding: 100px;
     display: flex;
-    background-color:#C6E4D6;
+    background-color: #C6E4D6;
     align-items: center;
     border-radius: 24px;
     justify-content: space-between;
-  }
-  #hero-font{
+}
+
+#hero-font {
     font-size: 56px;
     font-weight: bold;
-  }
-  .medium-font{
+}
+
+.medium-font {
     font-weight: 500;
-    color: rgb(14, 14, 14,50%);
-  }
-  .hbtn{
-    background-color:rgb(0,106,80) ;
-    color :rgb(255, 255, 255);
+    color: rgb(14, 14, 14, 50%);
+}
+
+.hbtn {
+    background-color: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
     font-size: 18px;
-    font-weight:bold;
+    font-weight: bold;
     padding: 15px 30px;
     border-radius: 8px;
     border: none;
-  }
-  .hbtn:hover{
-    background-color:rgb(0,106,80,0.8) ;
-    color :rgb(255, 255, 255);
-  }
+}
+
+.hbtn:hover {
+    background-color: rgb(0, 106, 80, 0.8);
+    color: rgb(255, 255, 255);
+}
+
+/* piller section styles */
+.Pillars {
+    padding: 100px;
+    margin: 0px 0px 0px 0px;
+}
+
+.section02-pillars {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Pillae-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Pillars-cards {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    margin: 24px;
+    border: solid #ddd;
+    border-radius: 16px;
+    background-color: #f9f9f9;
+    width: 302px;
+    height: 244px;
+}
+
+.Pillars-cards img {
+    width: 50px;
+    height: 50px;
+}
+
+.Pillars-cards h4 {
+    font-size: 20px;
+}
