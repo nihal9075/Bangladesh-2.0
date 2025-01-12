@@ -292,3 +292,43 @@ td {
     border: none;
     background-color: #006a50;
 }
+/* Donate section */
+.donation-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    gap: 24px;
+
+}
+.senter{
+    text-align: center;
+}
+.donation-options{
+    background-color: #f9f9f9;
+    color: rgba(14, 14, 14, 0.75);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 16px;
+    padding: 40px;
+    margin: 0px 24px;
+}
+.donation-options:hover {
+    background-color: rgb(179, 219, 200);
+    cursor: pointer;
+}
+#tk{
+    background-color:  rgba(198, 228, 214);
+}
+
+
+/* Subscribe */
+.Subscribe{
+    text-align: center;
+    margin: 0px 100px 0px 100px;
+    padding: 100px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+   
+}
