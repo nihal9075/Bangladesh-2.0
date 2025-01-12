@@ -1,17 +1,11 @@
-.open-sans-regular {
-    font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
-    /* font-weight: <weight>; */
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-}
-
 * {
     padding: 0 px;
     margin: 0px;
+}
 
-
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
 }
 
 /* nav styles    */
@@ -98,7 +92,7 @@ section {
 
 }
 
-h2{
+h2 {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 30px;
@@ -164,8 +158,8 @@ h2{
     margin: auto;
     display: flex;
     flex-direction: row;
-    border: solid #ddd;
-    border-radius: 16px;
+    border: none;
+
     width: 412px;
     height: 327px;
 
@@ -181,6 +175,7 @@ h2{
 .vision-contaner p {
     font-size: 16px;
     color: #0f0f0faf;
+
 }
 
 .Vision-cards img {
@@ -193,6 +188,7 @@ h2{
 .Vision-cards-01 {
     padding: 25px;
     background-color: #548ff53f;
+    border-radius: 16px
 }
 
 #lbtn-01 {
@@ -202,6 +198,7 @@ h2{
 .Vision-cards-02 {
     padding: 25px;
     background-color: #09a15d39;
+    border-radius: 16px
 }
 
 #lbtn-02 {
@@ -212,6 +209,7 @@ h2{
 .Vision-cards-03 {
     padding: 25px;
     background-color: #ffc4393d;
+    border-radius: 16px
 }
 
 #lbtn-03 {
@@ -219,6 +217,19 @@ h2{
 }
 
 /* Dr. Muhammad Yunus */
+.yunus {
+    position: relative;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 25px;
+
+}
+
+.yunus-code {
+    position: absolute;
+
+}
 
 .yunus span {
     font-size: 20px;
@@ -229,6 +240,9 @@ h2{
 
 /* opinion table */
 
+table {
+    background-color: white;
+}
 
 .opinion {
     width: 100%;
@@ -256,11 +270,13 @@ td {
     cursor: pointer;
     border-radius: 5px;
 }
-.semi-bold-font{
+
+.semi-bold-font {
     font-size: 20px;
     font-weight: bold;
     color: #0f0f0fd8;
 }
+
 /* recent news */
 .news-container {
     display: flex;
@@ -268,22 +284,26 @@ td {
     gap: 25px;
     margin: 25px;
     padding: 25px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     border-radius: 16px;
 }
+
 #senter {
     text-align: center;
 }
+
 .news-container h3 {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 25px;
     color: rgb(14, 14, 14, 80%);
 }
+
 .news-container img {
     border-radius: 16px;
-   
+
 }
+
 .main-btn-02 {
     color: rgb(255, 255, 255);
     font-size: 18px;
@@ -292,8 +312,9 @@ td {
     border: none;
     background-color: #006a50;
 }
+
 /* Donate section */
-.donation-container{
+.donation-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -301,34 +322,66 @@ td {
     gap: 24px;
 
 }
-.senter{
+
+.senter {
     text-align: center;
 }
-.donation-options{
+
+.donation-options {
     background-color: #f9f9f9;
     color: rgba(14, 14, 14, 0.75);
     border: 1px solid rgba(14, 14, 14, 0.15);
     font-size: 30px;
-    font-weight: 600;
+    font-weight: bold;
     border-radius: 16px;
     padding: 40px;
-    margin: 0px 24px;
+    margin: 0px 44px;
 }
+
 .donation-options:hover {
     background-color: rgb(179, 219, 200);
     cursor: pointer;
 }
-#tk{
-    background-color:  rgba(198, 228, 214);
+
+#tk {
+    background-color: rgba(198, 228, 214);
+}
+.num{
+    text-align: center;
+    font-size: 30px;
+    padding:0px 300px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: #f5f5f5;
+    
+
 }
 
 
 /* Subscribe */
-.Subscribe{
+.Subscribe {
     text-align: center;
     margin: 0px 100px 0px 100px;
     padding: 100px;
     background-color: #C6E4D6;
     border-radius: 24px;
-   
+}
+
+.Subscribe input {
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+
+}
+footer h3{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: rgb(14, 14, 14, 80%);
+}
+footer img {
+    padding: 15px;
 }
