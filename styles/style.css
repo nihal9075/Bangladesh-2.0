@@ -11,6 +11,7 @@
     padding: 0 px;
     margin: 0px;
 
+
 }
 
 /* nav styles    */
@@ -66,19 +67,23 @@
     font-weight: bold;
 }
 
-.medium-font {
+.hmedium-font {
+    font-size: 24px;
     font-weight: 500;
     color: rgb(14, 14, 14, 50%);
 }
 
-.hbtn {
-    background-color: rgb(0, 106, 80);
+.main-btn {
     color: rgb(255, 255, 255);
     font-size: 18px;
-    font-weight: bold;
     padding: 15px 30px;
     border-radius: 8px;
     border: none;
+}
+
+#hbtn {
+    background-color: rgb(0, 106, 80);
+
 }
 
 .hbtn:hover {
@@ -90,6 +95,7 @@
 .Pillars {
     padding: 100px;
     margin: 0px 0px 0px 0px;
+
 }
 
 .Pillars h2 {
@@ -107,6 +113,7 @@
     display: flex;
     justify-content: space-between;
 
+
 }
 
 .Pillars-cards {
@@ -119,15 +126,23 @@
     background-color: #f9f9f9;
     width: 302px;
     height: 244px;
+
 }
 
 .Pillars-cards img {
+    padding: 25px;
     width: 50px;
     height: 50px;
 }
 
 .Pillars-cards h4 {
     font-size: 20px;
+}
+
+.medium-font {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(14, 14, 14, 50%);
 }
 
 /* style The Vision of Future */
@@ -151,22 +166,24 @@
 }
 
 .Vision-cards {
-    
+
     margin: auto;
     display: flex;
     flex-direction: row;
     border: solid #ddd;
     border-radius: 16px;
     width: 412px;
-
     height: 327px;
 
+
 }
+
 .vision-contaner h4 {
     font-size: 20px;
     font-weight: bold;
     color: #0f0f0fd8;
 }
+
 .vision-contaner p {
     font-size: 16px;
     color: #0f0f0faf;
@@ -186,11 +203,6 @@
 
 #lbtn-01 {
     background-color: #5490F5;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    padding: 15px 30px;
-    border-radius: 8px;
-    border: none;
 }
 
 .Vision-cards-02 {
@@ -200,11 +212,6 @@
 
 #lbtn-02 {
     background-color: #09A15C;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    padding: 15px 30px;
-    border-radius: 8px;
-    border: none;
 
 }
 
@@ -215,10 +222,58 @@
 
 #lbtn-03 {
     background-color: #FFC239;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    padding: 15px 30px;
-    border-radius: 8px;
-    border: none;
+}
 
+/* Dr. Muhammad Yunus */
+
+.yunus span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0f0f0fd8;
+
+}
+
+/* opinion table */
+
+.opinion {
+    padding: 100px;
+    margin: 0px 0px 0px 0px;
+}
+
+.opinion h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.opinion table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: #ddd;
+}
+
+.opinion th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    height: 82px;
+}
+
+.opinion th {
+    background-color: #09a15d39;
+    text-align: left;
+    height: 72px;
+}
+
+.opinion-select {
+    padding: 8px;
+    background-color: #09a15d39;
+    border: 1px solid #000000;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.semi-bold-font{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0f0f0fd8;
 }
