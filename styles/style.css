@@ -92,13 +92,13 @@
 }
 
 /* piller section styles */
-.Pillars {
+section {
     padding: 100px;
     margin: 0px 0px 0px 0px;
 
 }
 
-.Pillars h2 {
+h2{
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 30px;
@@ -150,12 +150,6 @@
 .vision {
     padding: 100px;
     margin: 0px 0px 0px 0px;
-}
-
-.vision h2 {
-    font-size: 40px;
-    font-weight: bold;
-
 }
 
 .vision-contaner {
@@ -235,18 +229,8 @@
 
 /* opinion table */
 
+
 .opinion {
-    padding: 100px;
-    margin: 0px 0px 0px 0px;
-}
-
-.opinion h2 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-.opinion table {
     width: 100%;
     border-collapse: collapse;
     border-color: #ddd;
@@ -276,4 +260,35 @@ td {
     font-size: 20px;
     font-weight: bold;
     color: #0f0f0fd8;
+}
+/* recent news */
+.news-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin: 25px;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 16px;
+}
+#senter {
+    text-align: center;
+}
+.news-container h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: rgb(14, 14, 14, 80%);
+}
+.news-container img {
+    border-radius: 16px;
+   
+}
+.main-btn-02 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: #006a50;
 }
